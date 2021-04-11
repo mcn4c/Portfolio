@@ -1,0 +1,26 @@
+body {
+	font-family: 'Handlee', cursive;
+	background-image: url("../../images/mosaic-3394375_1920.jpg");
+	color: #713949;
+}
+
+.portfolio {
+	margin-top: 100px;
+}
+
+.btn-link {
+	background-color: #4eaaaa;
+	color: white;
+	width: 100%;
+
+	margin: 5px;
+}
+
+.btn-link:hover {
+	background-color: #713949;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+}
