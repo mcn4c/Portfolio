@@ -47,12 +47,6 @@ function Contact() {
 <br />
 </div>
 
-
-
-
-
-
-
     )
 }
 
