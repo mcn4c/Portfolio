@@ -1,7 +1,7 @@
 import React from 'react';
 import MyPic from './Assets/portrait2.jpeg'
 
-function AboutPage() {
+function About() {
 	return (
 		
 <container>	
@@ -95,4 +95,4 @@ function AboutPage() {
   </container>
 	);
 }
-export default AboutPage;
+export default About;
