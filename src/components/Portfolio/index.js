@@ -1,7 +1,8 @@
 import React from "react";
+import "./style.css"
 import Project from "../Project"
-import projectsA from "../../projectsA.json";
-import projectsB from "../../projectsB.json";
+import projectsA from "../../projectsA";
+import projectsB from "../../projectsB";
 
 
 function Portfolio() {

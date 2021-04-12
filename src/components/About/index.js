@@ -1,4 +1,5 @@
 import React from 'react';
+import "./style.css"
 import MyPic from "../../images/portrait2.jpeg";
 
 function About() {
@@ -34,7 +35,7 @@ function About() {
 
   <div className="row">
     <div className="col-lg-12">
-      <h1 style="text-align: center; text-decoration-line: underline;"> About Me</h1>
+      <h1 style={{textAlign: "center", textDecorationLine: "underline"}}> About Me</h1>
 
 
     </div>

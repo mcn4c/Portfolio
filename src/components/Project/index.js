@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 function Project(props) {
 
@@ -12,14 +13,12 @@ function Project(props) {
       <div className="col-lg-6">
   {/* button link will not allow props, need to find other option */}
          
-        <button className="btn btn-link inline"
-          onclick="window.location.href = {props.codeLink}">View the code</button>
+        <a href={props.codeLink}><button className="btn btn-link inline">View the code</button></a>
       </div>
       <div className="col-lg-6">
  {/* button link will not allow props, need to find other option */}
-        <button className="btn btn-link inline"
-          onclick="window.location.href = {props.siteLink}">See
-          live website</button>
+        <a href= {props.siteLink}><button className="btn btn-link inline">See
+          live website</button></a>
       </div>
     </div>
 
